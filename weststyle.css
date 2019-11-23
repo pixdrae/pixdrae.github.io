@@ -1,0 +1,376 @@
+  body {
+     font-family: tahoma, sans-serif;
+     margin: 0px;
+     background-color: #ffffff;
+     color: #aededb;
+	 }
+  a {
+     color: #808080;
+	 font-family: georgia;
+	 font-size:7pt;
+	 font-weight:bold;
+	 text-decoration:none;
+     }
+  a:hover {
+     color: #ffffff !important;
+	 border-top:2px solid #ffffff !important;
+     }
+  .entryHeaderDate {
+	 display:none;	
+	 }
+  .entryHeaderDate a {
+     color : #606060;
+     text-decoration : none;
+     }
+  .entryHeaderDate a:hover {
+     color : ;
+     text-decoration : underline;
+     }
+  .entryUserinfo-usericon img { 
+     border: 2px solid #ffffff; 
+     } 
+  .header-title {
+     color:#ffffff;
+	 font-size:1px;
+     }
+  .header-subtitle {
+     color:#ffffff;
+	 font-size:1px;
+     }
+  .header-icon {
+     top: 0px;
+     right: 0px;
+     position: absolute;
+     z-index: 1;
+     border-left: 2px solid #496a68;
+     border-bottom: 2px solid #496a68;
+     }
+  .pageheaderblock {
+     background-image:url('http://static.flickr.com/53/130080027_d1f2cd81d4_o.jpg');
+	 background-repeat:no-repeat;
+	 background-color:#ffffff;
+	 height:172px;
+     }
+  .pagefooterblock {
+     display:none;
+     }
+  .bodyblock {
+     padding: 0px 20px 0px 20px;
+     }
+  .bodyheaderblock {
+     background-color: #000000;
+     }
+  .bodynavblock {
+     background-color: #202020;
+     color: #496a68;
+     padding: 5px;
+     }
+  .body-title {
+     font-family: georgia, serif;
+     font-size: 18px;
+     color: #ffffff;
+     text-align: left;
+	 text-transform:uppercase;
+	 letter-spacing:2px;
+     padding-left: 24px;
+     }
+  .body-midtitle {
+     font-family: ;
+     font-size: 18px;
+     color: #496a68;
+     text-align: left;
+     padding-left: 8px;
+     }
+  .entryHolder {
+     color: #ffffff;
+     background-color: #000000;
+     font-family: ;
+     font-size: 12px;
+     margin: 4px 0px 20px 0px;
+     }
+  .entryUserinfo {
+     text-align: center;
+     margin: 0px 8px 8px 0px;
+     background-color: #ffffff;
+     }
+  .entryUserinfo a {
+	 color:#000000;
+	 }
+  .entryUserinfo a:hover {
+	 color:#606060 !important;
+	 }
+  .entryText {
+	 text-align:justify;
+     padding: 10px;
+     }
+  .entryHeader {
+	 border-bottom:1px dotted #ffffff;
+     color: #000000;
+     font-family: ;
+     font-size: 12px;
+	 background-color:#222222;
+     }
+  .entryHeaderSubject {
+     font-weight: bold;
+	 color:#ffffff;
+	 font-family:'times new roman', serif;
+	 text-transform:uppercase;
+     }
+  .entryMetadata {
+     padding-left: 6px;
+     }
+  .entryMetadata ul {
+     margin: 0px;
+     padding: 0px;
+     }
+  .entryMetadata li {
+     list-style: none;
+     display: inline;
+     padding-right: 10px;
+     }
+  .entryMetadata-label {
+     font-weight: bold;
+     padding-right: 4px;
+     }
+  .entryLinkbar {
+     font-family: ;
+     font-size: 11px;
+     color: #000000;
+     text-align: right;
+     padding: 4px 0px 4px 0px;
+     }
+  .entryLinkbar ul {
+     margin: 0px;
+     padding: 0px;
+     }
+  .entryLinkbar li {
+     padding: 0px 5px 0px 5px;
+     margin: 0px;     
+     display: inline;
+     }
+  .commentHolder {
+     color: #000000;
+     background-color: #aededb;
+     border-top: 2px solid #c9eae8;
+     font-family: ;
+     font-size: 12px;
+     margin: 4px 0px 4px 0px;
+     }
+  .commentUserinfo {
+     text-align: center; 
+     margin: 0px 8px 8px 0px;     
+     background-color: #aededb;
+     }
+  .commentUserinfo-usericon img { 
+     border: 0; 
+     } 
+  .commentText {
+     padding: 6px;
+     }
+  .commentHeader {
+     background-color: #7cb3b0;
+     color: #000000;
+     font-family: ;
+     font-size: 12px;
+     padding: 4px 0px 4px 8px;
+     }
+  .commentHeader a{
+     color: #000000;
+     }
+  .commentHeaderScreened {
+     font-family: ;
+     font-size: 12px;
+     background-color: #6e9e9b;
+     padding: 4px 0px 4px 8px;
+     }
+  .commentHeaderSubject {
+     font-weight: bold;
+     }
+  .commentLinkbar {
+     font-family: ;
+     font-size: 11px;
+     color: #000000;
+     text-align: right;
+     padding-top: 4px;
+     padding-bottom: 4px;
+     }
+  .commentLinkbar ul {
+     margin: 0px;
+     padding: 0px;
+     }
+  .commentLinkbar li {
+     padding: 0px 5px 0px 5px;
+     margin: 0px;
+     display: inline;
+     }
+  .replyform {
+     padding-left: 10px;
+     }
+  .yearlinks{
+     text-align: right;
+     }
+  .yearlink{
+     padding-left:4px;
+     padding-right: 4px;
+     }
+  .month {
+     width: 500px;
+     border: 1px solid #606060;
+     margin: 8px 8px 8px 40px;
+     }
+  .daysubjects {
+     color: #000000;
+     padding: 8px 8px 8px 40px;
+     }
+  .daytitles {
+     text-align: center;
+     border: 1px solid #496a68;
+     color: #ffffff;
+	 font-family:arial black;
+	 text-transform:uppercase;
+     }
+  .day-blank {
+     border: 1px solid #496a68;
+    }
+  .day {
+     border: 1px solid #404040;
+     }
+  .day-blank {
+	 background-color:#ffffff;
+	 border:0;
+	 }
+  .day-date {
+     font-family:'arial black', sans-serif;
+	 font-size:8pt;
+     color: #ffffff;
+     width: 50%;
+     text-align: center;
+     }
+  .day-count {
+     width: 50%;
+     text-align: center;
+     float: right;
+     font-size: 20px;
+     }
+  .day-count a {
+     text-decoration: none;
+	 color:#606060;
+	 font-size:10pt;
+     }
+  .day-count a:hover {
+	 border:0;
+	 }  
+  .sidebar {
+	 position:relative;
+	 top:-200px;
+	 background-color:#000000;
+     font-family: ;
+     font-size: 11px;
+     margin-left: 20px;
+     width: 200px;
+     }
+  .sidebox {
+     color: #000000;
+     margin: 4px 0px 4px 0px;
+     }
+  .sidebox a {
+ 	 color:gray;
+	 text-decoration:none;
+	 font-weight:bold;
+	 font-size:7pt;
+	 font-family:georgia;
+	 }
+  .sideboxTitle {
+     color: #ffffff;
+     font-family: times new roman;
+     font-size: 8pt;
+	 border-bottom:1px dotted #ffffff;
+	 letter-spacing:1px;
+	 text-transform:uppercase;
+	 font-weight:bold;
+     padding: 4px 0px 4px 8px;     
+     text-align: center;
+     }
+  .sideboxContent {
+     text-align: left;
+	 color:#ffffff;
+     padding: 2px 4px 2px 4px;
+     }
+  .sidebox #profile, sidebox #latestmonth, .sidebox #systemlinks {
+     text-align: center;
+     }
+  .sidebox #tags_sidebox {
+	 text-align:justify
+     }
+  .sidebox #latestmonth table{ 
+     width: 90%;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 4px;
+ 	 text-align:center;
+     }
+  .latestmonth-inactive {
+ 	 background-color:#202020;
+	 }
+  .latestmonth-active {
+	 border:1px solid #ffffff;
+	 background-color:#303030;
+	 }
+  .latestmonth-active a {
+	 color:#ffffff;
+	 }
+  .listtitle {
+     font-weight: bold;
+     }
+  .profile-label {
+     font-weight: bold;
+     }  
+  .header-menu {
+     font-size: 12px;
+	 position:absolute;
+	 top: 135px; left:178px;
+     }
+  .header-menu a, .header-menu a:visited { 
+     text-align: left;
+     padding: 2px 6px 2px 6px;
+     color: #ffffff;
+	 font-family:verdana;
+	 font-weight:bold;
+	 font-size:7pt;
+	 text-transform:uppercase;
+     text-decoration: none;
+     }
+  #footer-menu {
+     font-size: 11px;
+     }
+  #footer-menu a, .footer-menu a:visited {
+     white-space: nowrap;
+     padding: 6px;
+     text-align: left;
+     }     
+  .header-menu ul, #footer-menu ul {
+     margin: 0px;
+     padding: 0px;
+     }
+  .header-menu li, #footer-menu li {
+     display: inline;
+     }
+  .tagstable, .tagstable td {
+     border: 1px solid #496a68;
+     }
+  .tagstable {
+	 width: 500px;
+	 }
+  label {
+	 padding-bottom:5px;
+	 }
+  input, select, textarea {
+	 background-color: #201E1E;
+	 border:1px solid #404040;
+	 font-family:arial, serif;
+	 font-size:7pt;
+	 color:#ffffff;
+	 }
+
+
+
